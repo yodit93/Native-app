@@ -50,10 +50,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content: {
+    flex: 1,
     padding: 40,
     backgroundColor: '#ccc',
   },
   list: {
+    flex: 1,
     marginTop: 20,
     backgroundColor: '#ddd',
   }
