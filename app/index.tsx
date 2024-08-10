@@ -30,7 +30,7 @@ export default function Index() {
         Alert.alert('OOPS!', 'Todos must be over 3 characters long', [
           {text: 'Understood', onPress: () => console.log('alert closed')}
         ]);
-    } 
+    }
   }
   return (
     <TouchableWithoutFeedback onPress={() => {
